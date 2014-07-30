@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C49CB181962C5590068AB96 /* I2OJSONWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C49CB171962C5590068AB96 /* I2OJSONWeather.m */; };
+		1CAEF22A19604E4D00F21D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEF22919604E4D00F21D42 /* Foundation.framework */; };
+		1CAEF22C19604E4D00F21D42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEF22B19604E4D00F21D42 /* CoreGraphics.framework */; };
+		1CAEF22E19604E4D00F21D42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEF22D19604E4D00F21D42 /* UIKit.framework */; };
+		1CAEF23419604E4D00F21D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CAEF23219604E4D00F21D42 /* InfoPlist.strings */; };
+		1CAEF23619604E4D00F21D42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEF23519604E4D00F21D42 /* main.m */; };
+		1CAEF23A19604E4D00F21D42 /* I2OAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEF23919604E4D00F21D42 /* I2OAppDelegate.m */; };
+		1CAEF23C19604E4D00F21D42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAEF23B19604E4D00F21D42 /* Images.xcassets */; };
+		1CAEF24319604E4D00F21D42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEF24219604E4D00F21D42 /* XCTest.framework */; };
+		1CAEF24419604E4D00F21D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEF22919604E4D00F21D42 /* Foundation.framework */; };
+		1CAEF24519604E4D00F21D42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEF22D19604E4D00F21D42 /* UIKit.framework */; };
+		1CAEF24D19604E4D00F21D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CAEF24B19604E4D00F21D42 /* InfoPlist.strings */; };
+		1CAEF24F19604E4D00F21D42 /* getJSONdatafromURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEF24E19604E4D00F21D42 /* getJSONdatafromURLTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CAEF24619604E4D00F21D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAEF21E19604E4C00F21D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAEF22519604E4D00F21D42;
+			remoteInfo = getJSONdatafromURL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C49CB161962C5590068AB96 /* I2OJSONWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I2OJSONWeather.h; sourceTree = "<group>"; };
+		1C49CB171962C5590068AB96 /* I2OJSONWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I2OJSONWeather.m; sourceTree = "<group>"; };
+		1CAEF22619604E4D00F21D42 /* getJSONWeatherOnTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getJSONWeatherOnTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAEF22919604E4D00F21D42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CAEF22B19604E4D00F21D42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CAEF22D19604E4D00F21D42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CAEF23119604E4D00F21D42 /* getJSONWeatherOnTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "getJSONWeatherOnTimer-Info.plist"; sourceTree = "<group>"; };
+		1CAEF23319604E4D00F21D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CAEF23519604E4D00F21D42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CAEF23719604E4D00F21D42 /* getJSONWeatherOnTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "getJSONWeatherOnTimer-Prefix.pch"; sourceTree = "<group>"; };
+		1CAEF23819604E4D00F21D42 /* I2OAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = I2OAppDelegate.h; sourceTree = "<group>"; };
+		1CAEF23919604E4D00F21D42 /* I2OAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = I2OAppDelegate.m; sourceTree = "<group>"; };
+		1CAEF23B19604E4D00F21D42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CAEF24119604E4D00F21D42 /* getJSONWeatherOnTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getJSONWeatherOnTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAEF24219604E4D00F21D42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CAEF24A19604E4D00F21D42 /* getJSONWeatherOnTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "getJSONWeatherOnTimerTests-Info.plist"; sourceTree = "<group>"; };
+		1CAEF24C19604E4D00F21D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CAEF24E19604E4D00F21D42 /* getJSONdatafromURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getJSONdatafromURLTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAEF22319604E4D00F21D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEF22C19604E4D00F21D42 /* CoreGraphics.framework in Frameworks */,
+				1CAEF22E19604E4D00F21D42 /* UIKit.framework in Frameworks */,
+				1CAEF22A19604E4D00F21D42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEF23E19604E4D00F21D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEF24319604E4D00F21D42 /* XCTest.framework in Frameworks */,
+				1CAEF24519604E4D00F21D42 /* UIKit.framework in Frameworks */,
+				1CAEF24419604E4D00F21D42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAEF21D19604E4C00F21D42 = {
+			isa = PBXGroup;
+			children = (
+				1CAEF22F19604E4D00F21D42 /* getJSONWeatherOnTimer */,
+				1CAEF24819604E4D00F21D42 /* getJSONWeatherOnTimer */,
+				1CAEF22819604E4D00F21D42 /* Frameworks */,
+				1CAEF22719604E4D00F21D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAEF22719604E4D00F21D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEF22619604E4D00F21D42 /* getJSONWeatherOnTimer.app */,
+				1CAEF24119604E4D00F21D42 /* getJSONWeatherOnTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAEF22819604E4D00F21D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEF22919604E4D00F21D42 /* Foundation.framework */,
+				1CAEF22B19604E4D00F21D42 /* CoreGraphics.framework */,
+				1CAEF22D19604E4D00F21D42 /* UIKit.framework */,
+				1CAEF24219604E4D00F21D42 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CAEF22F19604E4D00F21D42 /* getJSONWeatherOnTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEF23819604E4D00F21D42 /* I2OAppDelegate.h */,
+				1CAEF23919604E4D00F21D42 /* I2OAppDelegate.m */,
+				1C49CB161962C5590068AB96 /* I2OJSONWeather.h */,
+				1C49CB171962C5590068AB96 /* I2OJSONWeather.m */,
+				1CAEF23B19604E4D00F21D42 /* Images.xcassets */,
+				1CAEF23019604E4D00F21D42 /* Supporting Files */,
+			);
+			name = getJSONWeatherOnTimer;
+			path = getJSONdatafromURL;
+			sourceTree = "<group>";
+		};
+		1CAEF23019604E4D00F21D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEF23119604E4D00F21D42 /* getJSONWeatherOnTimer-Info.plist */,
+				1CAEF23219604E4D00F21D42 /* InfoPlist.strings */,
+				1CAEF23519604E4D00F21D42 /* main.m */,
+				1CAEF23719604E4D00F21D42 /* getJSONWeatherOnTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CAEF24819604E4D00F21D42 /* getJSONWeatherOnTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEF24E19604E4D00F21D42 /* getJSONdatafromURLTests.m */,
+				1CAEF24919604E4D00F21D42 /* Supporting Files */,
+			);
+			name = getJSONWeatherOnTimer;
+			path = getJSONdatafromURLTests;
+			sourceTree = "<group>";
+		};
+		1CAEF24919604E4D00F21D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEF24A19604E4D00F21D42 /* getJSONWeatherOnTimerTests-Info.plist */,
+				1CAEF24B19604E4D00F21D42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAEF22519604E4D00F21D42 /* getJSONWeatherOnTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAEF25219604E4D00F21D42 /* Build configuration list for PBXNativeTarget "getJSONWeatherOnTimer" */;
+			buildPhases = (
+				1CAEF22219604E4D00F21D42 /* Sources */,
+				1CAEF22319604E4D00F21D42 /* Frameworks */,
+				1CAEF22419604E4D00F21D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getJSONWeatherOnTimer;
+			productName = getJSONdatafromURL;
+			productReference = 1CAEF22619604E4D00F21D42 /* getJSONWeatherOnTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CAEF24019604E4D00F21D42 /* getJSONWeatherOnTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAEF25519604E4D00F21D42 /* Build configuration list for PBXNativeTarget "getJSONWeatherOnTimerTests" */;
+			buildPhases = (
+				1CAEF23D19604E4D00F21D42 /* Sources */,
+				1CAEF23E19604E4D00F21D42 /* Frameworks */,
+				1CAEF23F19604E4D00F21D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAEF24719604E4D00F21D42 /* PBXTargetDependency */,
+			);
+			name = getJSONWeatherOnTimerTests;
+			productName = getJSONdatafromURLTests;
+			productReference = 1CAEF24119604E4D00F21D42 /* getJSONWeatherOnTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAEF21E19604E4C00F21D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = I2O;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___idea2Objects___";
+				TargetAttributes = {
+					1CAEF24019604E4D00F21D42 = {
+						TestTargetID = 1CAEF22519604E4D00F21D42;
+					};
+				};
+			};
+			buildConfigurationList = 1CAEF22119604E4C00F21D42 /* Build configuration list for PBXProject "getJSONWeatherOnTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CAEF21D19604E4C00F21D42;
+			productRefGroup = 1CAEF22719604E4D00F21D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAEF22519604E4D00F21D42 /* getJSONWeatherOnTimer */,
+				1CAEF24019604E4D00F21D42 /* getJSONWeatherOnTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAEF22419604E4D00F21D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEF23419604E4D00F21D42 /* InfoPlist.strings in Resources */,
+				1CAEF23C19604E4D00F21D42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEF23F19604E4D00F21D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEF24D19604E4D00F21D42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAEF22219604E4D00F21D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEF23619604E4D00F21D42 /* main.m in Sources */,
+				1C49CB181962C5590068AB96 /* I2OJSONWeather.m in Sources */,
+				1CAEF23A19604E4D00F21D42 /* I2OAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEF23D19604E4D00F21D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEF24F19604E4D00F21D42 /* getJSONdatafromURLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CAEF24719604E4D00F21D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAEF22519604E4D00F21D42 /* getJSONWeatherOnTimer */;
+			targetProxy = 1CAEF24619604E4D00F21D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CAEF23219604E4D00F21D42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAEF23319604E4D00F21D42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CAEF24B19604E4D00F21D42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAEF24C19604E4D00F21D42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CAEF25019604E4D00F21D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CAEF25119604E4D00F21D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAEF25319604E4D00F21D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getJSONdatafromURL/getJSONWeatherOnTimer-Prefix.pch";
+				INFOPLIST_FILE = "getJSONdatafromURL/getJSONWeatherOnTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = getJSONWeatherOnTimer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CAEF25419604E4D00F21D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getJSONdatafromURL/getJSONWeatherOnTimer-Prefix.pch";
+				INFOPLIST_FILE = "getJSONdatafromURL/getJSONWeatherOnTimer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = getJSONWeatherOnTimer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CAEF25619604E4D00F21D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/getJSONdatafromURL.app/getJSONdatafromURL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getJSONdatafromURL/getJSONdatafromURL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "getJSONdatafromURLTests/getJSONWeatherOnTimerTests-Info.plist";
+				PRODUCT_NAME = getJSONWeatherOnTimerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1CAEF25719604E4D00F21D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/getJSONdatafromURL.app/getJSONdatafromURL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getJSONdatafromURL/getJSONdatafromURL-Prefix.pch";
+				INFOPLIST_FILE = "getJSONdatafromURLTests/getJSONWeatherOnTimerTests-Info.plist";
+				PRODUCT_NAME = getJSONWeatherOnTimerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAEF22119604E4C00F21D42 /* Build configuration list for PBXProject "getJSONWeatherOnTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEF25019604E4D00F21D42 /* Debug */,
+				1CAEF25119604E4D00F21D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAEF25219604E4D00F21D42 /* Build configuration list for PBXNativeTarget "getJSONWeatherOnTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEF25319604E4D00F21D42 /* Debug */,
+				1CAEF25419604E4D00F21D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAEF25519604E4D00F21D42 /* Build configuration list for PBXNativeTarget "getJSONWeatherOnTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEF25619604E4D00F21D42 /* Debug */,
+				1CAEF25719604E4D00F21D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CAEF21E19604E4C00F21D42 /* Project object */;
+}

@@ -7,9 +7,8 @@ A fully functional Xcode Project is provided which illustrates the usage of this
 
 
 - Accompanying Project example uses Glasgow`s weather as an example.
-- The weather object can check the weather at intervals specified during creation.
+- The Class can check the weather at intervals specified during creation. Timer interval is specified in Seconds.
 - Class UI will updated, if the Designated Initializer is used. If init is used to create the object, UI is not updated.
-- Timer interval is specified in Seconds.
 - Asynchronous call made to Open Weather Map API for the JSON data (NSOperation)
 - Internet connectivity is not checked. Use Apple`s Reachability Class for that.
 - XIB is not provided for UI updates. Console logs the formatted Weather data.

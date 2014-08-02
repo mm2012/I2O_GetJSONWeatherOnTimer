@@ -3,7 +3,7 @@ Readme
 This Custom class downloads and parses current weather data from Open Weather Map web service.  Data is received in JSON format.
 This Class can update the UI and/or can run repeatedly on a Timer checking the Weather in the specified time interval.
 
-A fully functional Xcode Project is provided which illustrates the usage of this custom class.  Project deployed for iOS 6.0 upwards.
+A fully functional Xcode Project is provided which illustrates the usage of this custom class.  Project is targetted for iOS 6.0 upwards.
 
 
 - Accompanying Project example uses Glasgow`s weather as an example.
